@@ -1,0 +1,24 @@
+# 设计帝国 - GitHub Pages Site
+
+# Dependencies and build
+node_modules/
+vendor/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
