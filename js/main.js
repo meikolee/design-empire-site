@@ -149,4 +149,4 @@ function initCounterAnimation() {
 // ============================================
 console.log('%c🎨 设计帝国', 'font-size: 24px; font-weight: bold; color: #6c5ce7;');
 console.log('%c让每一份设计都值得被看见', 'font-size: 14px; color: #636e72;');
-console.log('%c📤 投稿入口: https://github.com/meikolee/design-empire-site/issues/new', 'font-size: 12px; color: #00cec9;');
+console.log('%c📤 投稿入口: https://www.warting.com/service/submitworks.html', 'font-size: 12px; color: #00cec9;');

@@ -2,30 +2,33 @@
 
 > 让每一份设计都值得被看见
 
-国内领先的设计作品投稿与展示平台推广页面。这是一个基于 **GitHub Pages** 的纯静态网站，用于推广「设计帝国」投稿平台。
+[设计帝国 (www.warting.com)](https://www.warting.com) 是国内领先的视觉设计师家园推广页面。这是一个基于 **GitHub Pages** 的纯静态网站，用于推广设计帝国的投稿功能。
 
-## 🌐 在线访问
+## 🌐 相关链接
 
-部署后，通过以下地址访问：
-
-```
-https://<你的GitHub用户名>.github.io/design-empire-site
-```
+| 名称            | 地址                                             |
+| --------------- | ------------------------------------------------ |
+| 🏠 设计帝国官网 | https://www.warting.com                          |
+| 📤 原创投稿     | https://www.warting.com/service/submitworks.html |
+| 💬 设计论坛     | https://bbs.warting.com/                         |
+| 📱 移动版       | https://m.warting.com/                           |
+| 📌 花瓣主页     | http://huaban.com/warting/                       |
 
 ## 📁 项目结构
 
 ```
-design-empire-site/
-├── index.html              # 主页面
-├── README.md               # 本文件
+design-empire-site/            # GitHub Pages 站点根目录
+├── index.html                 # 主页面
+├── README.md                  # 本文件
+├── .gitignore
 ├── css/
-│   └── style.css           # 样式文件
+│   └── style.css              # 样式文件
 ├── js/
-│   └── main.js             # JavaScript 交互
-├── images/                 # 图片资源目录
+│   └── main.js                # JavaScript 交互
+├── images/                    # 图片资源目录
 └── .github/
     └── workflows/
-        └── deploy.yml      # GitHub Actions 自动部署
+        └── deploy.yml         # GitHub Actions 自动部署
 ```
 
 ## 🚀 部署指南
@@ -36,23 +39,22 @@ design-empire-site/
 2. **推送到 GitHub**
    ```bash
    git add .
-   git commit -m "初始化设计帝国推广页面"
-   git push origin main
+   git commit -m "🎨 更新设计帝国推广页面"
+   git push origin master
    ```
 3. **启用 GitHub Pages**
    - 进入仓库 **Settings → Pages**
    - **Source** 选择 "**GitHub Actions**"
-   - 推送代码到 `main` 分支后，Actions 将自动部署
+   - 推送代码到 `master` 分支后，Actions 将自动部署
 4. **等待部署完成**
    - 进入 **Actions** 标签页查看部署进度
    - 部署成功后，访问 `https://<用户名>.github.io/design-empire-site`
 
-### 方式二：手动部署
+## 🔗 推广目标
 
-1. 进入仓库 **Settings → Pages**
-2. **Source** 选择 "**Deploy from a branch**"
-3. **Branch** 选择 `main`，目录选择 `/design-empire-site`
-4. 点击 **Save**
+本页面的主要目标是引导访客前往 [www.warting.com](https://www.warting.com) 进行原创作品投稿。
+
+**投稿直达链接：** https://www.warting.com/service/submitworks.html
 
 ## ✏️ 自定义修改
 
@@ -62,7 +64,7 @@ design-empire-site/
 
 - **标题**：修改 `<title>` 标签内容
 - **描述**：修改 `<meta name="description">` 内容
-- **联系方式**：更新页脚的社交链接
+- **主站链接**：所有链接默认指向 `www.warting.com`
 - **统计数据**：更新 Hero 区域的作品数、设计师数等
 
 ### 样式修改
